@@ -1,15 +1,5 @@
-# config.toml
-# Bind to all interfaces so Render can route traffic to it.
 host = "0.0.0.0"
-
-# The port to listen on. Render will override this with the PORT env var.
 port = 4000
-
-# Prefix for the Wisp endpoint. Leave empty for the root path.
 prefix = ""
-
-# Log level. 'info' is a good default.
 log_level = "info"
-
-# Maximum WebSocket message size (10 MB).
 max_message_size = 10485760
