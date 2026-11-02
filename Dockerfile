@@ -20,4 +20,4 @@ COPY --from=builder /app/target/release/epoxy-server .
 COPY config.toml .
 
 EXPOSE 4000
-CMD ["./epoxy-server", "--default-config"]
+CMD ["./epoxy-server", "config.toml"]
